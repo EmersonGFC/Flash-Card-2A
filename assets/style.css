@@ -61,7 +61,7 @@ body {
     backface-visibility: hidden;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao:active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -97,7 +97,7 @@ footer p {
 
 @media (max-width: 560px) {
   body {
-    background: url('/assets/img/bg-mobile.webp');
+    background: url('/assets/img/bg-mobile.webp'), no-repeat cover;
   }
 
   .cartao {
