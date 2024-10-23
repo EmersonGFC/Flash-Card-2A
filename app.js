@@ -19,10 +19,10 @@ function criaCartao(categoria, pergunta, resposta) {
 
     function viraCartao() {
         respostaEstaVisivel = !respostaEstaVisivel
-        cartao.classList.toglle('active', respostaEstaVisivel)
+        cartao.classList.toggle('active', respostaEstaVisivel)
     }
 
-    cartao.addEventListener('click', ViraCartao)
+    cartao.addEventListener('click', viraCartao)
     
     container.appendChild(cartao)
 }
